@@ -1,0 +1,256 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(70deg, red, green, lightblue, white);
+}
+
+nav {
+    background-color: mediumaquamarine;
+    display: flex;
+    position: relative;
+    margin-top: 2px;
+    height: 10vh;
+}
+
+.nav-logo {
+    font-size: 25px;
+    color: mediumslateblue;
+    flex-basis: 15%;
+    padding: 10px 25px;
+    background-color: rgb(125, 228, 171);
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+#r {
+    color: red;
+    text-shadow: 7px 8px 5px black;
+    padding-right: 4px;
+}
+
+.nav-middle {
+    padding: 12px 10px;
+    flex-basis: 30%;
+    background-image: linear-gradient( 65deg, red, blue, green, gray, white, maroon);
+}
+
+label {
+    font-size: 20px;
+    color: wheat;
+}
+
+.nav-middle input {
+    border-radius: 5px;
+    padding: 8px 15px;
+}
+
+.nav-right {
+    position: absolute;
+    right: 20px;
+    flex-basis: 55%;
+}
+
+.nav-right ul li {
+    display: inline-block;
+    text-transform: capitalize;
+    margin-top: 20px;
+    padding-right: 20px;
+}
+
+.nav-right ul li:nth-child(4) {
+    padding-right: 0px;
+}
+
+.nav-right ul li a {
+    padding: 5px 10px;
+    color: white;
+    border: 1px black solid;
+    border-radius: 5px;
+    background-color: rgb(207, 226, 216);
+    color: black;
+}
+
+.nav-right ul li a:hover {
+    background-color: #fff;
+}
+
+i {
+    padding-right: 5px;
+}
+
+.menu {
+    transition: all 0.5s;
+}
+
+.menu-list {
+    display: none;
+    position: absolute;
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+.menu-list a {
+    display: block;
+    transition: all 0.5s;
+}
+
+.menu-list a:hover {
+    background-color: red;
+}
+
+#home {
+    background-color: rgb(115, 134, 194);
+}
+
+#dm {
+    background-color: rgb(82, 90, 114);
+    color: red;
+}
+
+.menu:hover .menu-list {
+    display: block;
+    transition: all 0.5s;
+}
+
+#dm:hover {
+    background-color: rgb(248, 234, 233);
+    color: black;
+}
+
+.contain-1 {
+    width: 100%;
+    height: 105vh;
+    background-color: gray;
+    border: 8px solid red;
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+
+.box-1 {
+    flex-basis: 32%;
+    border: 1px solid black;
+    background-color: rgb(88, 28, 28);
+}
+
+.box-2 {
+    flex-basis: 32%;
+    border: 1px solid black;
+    background-color: rgb(88, 28, 28);
+}
+
+.box-3 {
+    flex-basis: 32%;
+    border: 1px solid black;
+    background-color: rgb(88, 28, 28);
+}
+
+img {
+    width: 350px;
+    padding-left: 100px;
+    padding-top: 10px;
+    transition: all 1s;
+}
+
+img #boxs {
+    height: 200px;
+}
+
+h2 {
+    color: rgb(93, 207, 93);
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+/* p {
+    background-color: greenyellow;
+    text-indent: 5px;
+    text-align: justify;
+    padding: 5px 7px;
+} */
+
+.pera {
+    border: 1px solid black;
+    background-color: burlywood;
+    margin: 5px 10px;
+    padding: 10px 10px;
+    box-shadow: 5px 8px 5px white;
+}
+
+.pera p {
+    text-align: justify;
+    font-family: cursive;
+    text-shadow: 5px 5px 7px black;
+}
+
+.btn {
+    text-align: center;
+    background-color: black;
+    border: 1px solid red;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+#submit {
+    padding: 5px 8px;
+    background-color: rgb(157, 157, 238);
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: background-imag 0.5s, transform 0.5s;
+    margin-bottom: 10px;
+}
+
+h3 {
+    color: red;
+}
+
+h3:hover {
+    color: green;
+}
+
+#submit:hover {
+    background-image: linear-gradient(60deg, red, blue, white, navy, green);
+    color: red;
+    transform: scale(1.1);
+}
+
+.big-box-1 {
+    margin-top: 10px;
+}
+
+@font-face {
+    font-family: overwritting;
+    src: url(./overwritting.ttf);
+}
+
+.bbx h1 {
+    text-align: center;
+    text-shadow: 5px 7px 6px, red;
+    text-decoration: underline;
+    font-family: overwritting;
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 10px 0px;
+}
+
+.fa-arrow-circle-right {
+    transition: transform 0.5s;
+}
+
+.fa-arrow-circle-right:hover {
+    transform: rotate(90deg) scale(1.2);
+}
+
+#sem {
+    background-color: red;
+}
