@@ -251,6 +251,17 @@ h3:hover {
     transform: rotate(90deg) scale(1.2);
 }
 
-#sem {
-    background-color: red;
+.check {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.chk {
+    padding-top: 3px;
+    padding-right: 8px;
+}
+
+.chk:hover {
+    transform: scale(1.3);
 }
